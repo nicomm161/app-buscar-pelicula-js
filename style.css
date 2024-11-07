@@ -16,7 +16,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -51,9 +51,37 @@ body {
   background-color: #0056b3;
 }
 
-/* Estilo de los resultados */
+/* Estilo del contenedor de resultados */
 #results {
   margin-top: 20px;
   text-align: left;
   color: #333;
+}
+
+/* Estilo de cada película */
+.movie {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* Estilo del póster */
+.movie img {
+  max-width: 100px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+/* Estilo del contenido de la película */
+.movie h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.movie p {
+  margin: 5px 0;
 }
